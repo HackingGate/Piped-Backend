@@ -3,8 +3,7 @@ services:
         image: 1337kavin/piped:latest
         restart: unless-stopped
         ports:
-            - "0.0.0.0:8070:8080"
-            - "[::]:8070:8080"
+            - "8070:8080"
         volumes:
             - ./config.properties:/app/config.properties
         depends_on:

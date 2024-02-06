@@ -50,6 +50,7 @@ dependencies {
 
 shadowJar {
     // minimize()
+    archiveFileName = 'piped.jar'
 }
 
 jar {
